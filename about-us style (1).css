@@ -1,0 +1,153 @@
+body{
+    background: url("about\ us\ image.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.combo
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:20px;
+}
+
+.first
+{
+    width: 100%;
+    height: 500px;
+    max-width:400px;
+    align-self: right;
+    
+}
+#as-1
+{
+    text-align:right;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  position:absolute;
+  right:20px;
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+
+    font-family: 'Playfair Display', serif;
+    font-size:30px;
+    
+    color:black;
+    border-radius: 25px;
+    padding:20px;
+    font-weight: 600;
+}
+.title
+{
+    font-family: 'Playfair Display', serif;
+    font-size:60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.second
+{
+    width: 100%;
+    height: 500px;
+    max-width:600px;
+    align-self: right;
+}
+#as-2
+{
+    text-align:left;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+
+    font-family: 'Playfair Display', serif;
+    font-size:30px;
+    
+    color:black;
+    border-radius: 25px;
+    padding:20px;
+    font-weight: 600;
+    position:absolute;
+    left:30px;
+    
+}
+
+#reviewers
+{
+    font-family: 'Playfair Display', serif;
+    font-size:60px;
+    font-weight: 450;
+    text-align: center;
+    color:white;
+}
+
+.review
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.r1,.r2,.r3
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+width: 100%;
+    height: 450px;
+    max-width:400px;
+    border-radius: 25px;
+    
+}
+.r1-pic,.r2-pic,.r3-pic
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.reviewer
+{
+    font-family: 'Playfair Display', serif;
+    font-size:40px;
+    font-weight: 450;
+    text-align: center;
+    color:yellow;
+}
+
+.reviews
+{
+    font-family: 'Playfair Display', serif;
+    font-size:20px;
+    font-weight: 600;
+    text-align: left;
+    color:black;
+    padding: 10px;
+    
+}
+
+.rev1
+{
+    width:200px; 
+    height:200px; 
+    align-self: center;
+}

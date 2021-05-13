@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+body{
+    background-color: whitesmoke;
+}
+
+.top-container
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding:20px;
+    margin:10px;
+    
+    height:5vh;
+    
+}
+
+.top-container h2{
+
+    position:absolute;
+    top:2px;
+    margin:5px;
+}
+.title-top-container
+{
+    font-family: 'Playfair Display', serif;
+    font-size:30px;
+    font-weight: 300;
+    color:#ff8303;
+}
+
+ 
+.nav-btn
+{
+    padding: 5px 15px;
+  border-radius: 25px;
+  text-align: center;
+  font-weight: 600;
+  color:black;
+  text-decoration: none;
+  outline: none;
+  border: 2px solid #ff8303;
+  background-color: none;
+}
+
+.nav-btn :hover{
+    background-color:#d49351f6;
+}
+
+.mid-container
+{
+    background-image: url("bg-1\ \(choice-3\).jpg");
+    height:150vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#first, #home, #home-2
+{
+  color:white;
+  font-size: 60px;
+  padding:20px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+
+
+
+.b1, .b2,.b3
+{
+    color:white;
+    font-size:50px;
+    font-family:'Pangolin', cursive;
+    padding:20px;
+
+}
+.b1
+{
+    position:absolute;
+    top:550px;
+}
+
+.b2{
+    position:absolute;
+    top:600px;
+}
+
+.b3{
+    position:absolute;
+    top:650px;
+}
+#home
+{
+    position:absolute;
+    top:150px;
+    
+}
+
+#home-2
+{
+    position:absolute;
+    top:202px;
+}
+
+#but
+{
+    padding: 20px;
+  border-radius: 25px;
+  text-align: center;
+  font-weight: 600;
+  color:black;
+  text-decoration: none;
+  outline: none;
+  border: 2px solid #ff8303;
+  position:absolute;
+  top:800px;
+  right:1000px;
+  font-family:'Pangolin', cursive ;
+  background:none;
+}
+
+#but :hover
+{
+    background-color:#d38d47;
+}
+
+.bottom
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#bottom-txt
+{
+    text-align: center;
+    font-family:'Playfair Display', serif;
+    font-size:50px;
+    font-style: normal;
+    font-weight: 300;
+    color:black;
+
+}
+
+.bottom-left-pics
+{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+    
+}
+
+
+    .bottom-left-pics .img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+   
+      #singaporelabel, #turkeylabel, #indialabel, #denmarklabel, #fijilabel, #bblabel
+      {
+        text-align:center;
+        font-weight: 600;
+      }
+
+
+#singapore, #turkey, #india, #denmark,#fiji, #bb
+{
+    border-radius: 50%;
+  padding: 40px;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .next,
+.prev {
+  background-color:#d38d47;
+  padding: 5px 15px;
+  border-radius: 25px;
+  text-align: center;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+  outline: none;
+  border: 2px solid #d38d47;
+  cursor: pointer;
+  transition: 0.6s ease;
+  user-select: none;
+}
+.next:hover,
+.prev:hover {
+  background-color: #f2bf32;
+}
+
+.bottom-left-container {
+    font-size: 30px;
+    font-variation-settings: "GRAD" var(--text-axis);
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" var(--text-axis);
+    background-image: url("bg-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:10px;
+  
+   
+    
+}
+  
+ .bottom-left-container #lm
+  {
+    padding: 20px;
+  border-radius: 25px;
+  text-align: center;
+  font-weight: 600;
+  color:black;
+  text-decoration: none;
+  outline: none;
+  border: 2px solid #ff8303;
+  
+  font-family:'Playfair Display', serif ;
+  background:none;
+  position:absolute;
+  top:1100px;
+  left:30px;
+  }
+
+  .bottom-right-container {
+    font-size: 30px;
+    font-variation-settings: "GRAD" var(--text-axis);
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" var(--text-axis);
+    background-image: url("bg-3\ world\ 2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:10px;
+  
+   
+    
+}
+#europe, #italy, #greece, #paris,#mal, #venice
+{
+    border-radius: 50%;
+  padding: 40px;
+}
+
+#europelabel, #italylabel, #greecelabel, #parislabel, #mallabel, #venicelabel
+      {
+        text-align:center;
+        font-weight: 600;
+        color:white;
+      }
+
+      .bottom-right-pics .img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .bottom-right-pics
+{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+    
+}
+
+.bottom-right-container #lm
+  {
+    padding: 20px;
+  border-radius: 25px;
+  text-align: center;
+  font-weight: 600;
+  color:white;
+  text-decoration: none;
+  outline: none;
+  border: 2px solid #ff8303;
+  
+  font-family:'Playfair Display', serif ;
+  background:none;
+  position: absolute;
+  top:2000px;
+  left:30px;
+  
+  }
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .next,
+.prev {
+  background-color:#d38d47;
+  padding: 5px 15px;
+  border-radius: 25px;
+  text-align: center;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+  outline: none;
+  border: 2px solid #d38d47;
+  cursor: pointer;
+  transition: 0.6s ease;
+  user-select: none;
+}
+.next:hover,
+.prev:hover {
+  background-color: #f2bf32;
+}
+
+.contact-us
+{
+  
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:10px;
+    
+    
+
+}
+#contact
+{
+  font-family: 'Playfair Display', serif;
+    font-size:30px;
+    font-weight: 300;
+    text-align: left;
+    color:#ff8303;
+}
+
+#email, #phone
+{
+  font-family: 'Playfair Display', serif;
+    font-size:20px;
+    font-weight: 300;
+    text-align: right;
+}
+
+.emails,.phones
+{
+  display:flex;
+  flex-direction: row;
+  align-items: right;
+}
+
+#phone
+{
+  position:absolute;
+  right:20px;
+}
